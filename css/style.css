@@ -1,0 +1,939 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	height: auto;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden; 
+    background-color: #f3f3f3;
+}
+
+
+/* RESPONSIVE */
+.responsive{
+	position: absolute;
+	left:50%;
+	right:50%;
+}
+
+header#cabecalho{
+	position: absolute;
+	width: 100%;
+	height:100px;
+	background-color: #ffcd00;
+	z-index: 10;
+}
+
+nav#menu-after{
+	position: absolute;
+	width: 100%;
+	height:450px;
+	background-color:#ffcd00;
+	display: none;
+} 
+
+div#menu-after-conteudo{
+	position: absolute;
+    width: 1280px;
+    height: 450px;
+    margin-left:-640px;
+    margin-top:0px;
+}
+
+a.btn-fechar{
+	position: absolute;
+	margin-left:600px;
+	margin-top:400px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	color:#000;
+	border: 1px solid #000;
+	padding: 5px 10px 5px 10px;
+}
+
+a.btn-fechar:hover{
+	background-color: #000;
+	color:#ffcd00;
+	transition: all 0.3s linear;
+}
+
+div#cabecalho-area{
+	position: absolute;
+	width: 1280px;
+	height: 100px;
+	margin-left:-640px;
+}
+
+img.logo{
+	float: left;
+	width: 150px;
+}
+
+div#menu-hamburger{
+	position: relative;
+	float: right;
+	margin-top:35px;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+}
+
+p#cont{
+	position: absolute;
+	background-color: red;
+	color:#fff;
+	padding: 4px 5px 4px 5px;
+	border-radius: 50px;
+	width: 10px;
+	margin-left:-5px;
+	margin-top:-3px;
+	font-size: 12px;
+}
+
+div#trace{
+	width: 40px;
+	height: 5px;
+	background-color: #000;
+	line-height: 80%;
+	border-radius: 10px;
+}
+
+/* PRODUTOS */
+section#produtos{
+	width: 100%;
+	height: 1000px;
+}
+
+article#produtos{
+   position: absolute;
+   width: 1280px;
+   height: 1000px;
+   margin-left:-640px;
+   margin-top: 150px;
+ }
+
+ div#produtos-info-1{
+ 	position: absolute;
+ 	width: 750px;
+ 	height:300px;
+ 	background-color: #fff;
+ 	margin-left:260px;
+ 	border-bottom: 5px solid #c8c8c8;
+ }
+
+ div#produtos-info-2{
+ 	position: absolute;
+ 	width: 750px;
+ 	height:300px;
+ 	background-color: #fff;
+ 	margin-left:260px;
+ 	border-bottom: 5px solid #c8c8c8;
+ 	margin-top:350px;
+ }
+
+ div#produtos-info-3{
+ 	position: absolute;
+ 	width: 750px;
+ 	height:300px;
+ 	background-color: #fff;
+ 	margin-left:260px;
+ 	border-bottom: 5px solid #c8c8c8;
+ 	margin-top:700px;
+ }
+
+ div#images-mini{
+ 	position: absolute;
+ 	margin-left: 10px;
+ 	margin-top: 35px;
+ }
+
+ figure#images-mini{
+   width:40px;
+   height: 50px;
+   border:2px solid #c8c8c8;
+   border-radius: 5px;
+   margin-top: -10px;
+   cursor: pointer;
+}
+
+figure#images-mini:hover{
+	border:2px solid #ffcd00;
+	transition: all 0.3s linear;
+}
+
+img.images-mini{
+ 	width: 40px;
+}
+
+div#images-padrao{
+	position: absolute;
+	margin-left: 70px;
+	margin-top:10px;
+}
+
+img.images-padrao{
+	width: 200px;
+}
+
+div#produtos-textos{
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 70px;
+	width: 400px;
+}
+
+div#produtos-texto-1{
+	border-bottom: 1px solid #c8c8c8;
+	padding-bottom: 15px;
+}
+
+img.heart{
+	position: relative;
+	float: right;
+	width: 40px;
+	margin-top: -30px;
+}
+
+div#produtos-textos p{
+	font-weight: 300;
+	color: #535353;
+	font-size: 20px;
+}
+
+div#produtos-texto-2{
+	position: absolute;
+	margin-top: 80px;
+}
+
+div#produtos-texto-2 p{
+	font-size: 30px;
+	color:#22b14c;
+	font-weight: 400;
+}
+
+div#produtos-texto-3{
+	position: absolute;
+	margin-top:120px;
+}
+
+div#produtos-texto-3 p{
+	font-size: 14px;
+}
+
+span.texto-destaque{
+	color:#22b14c;
+}
+
+button.btn-adicionar{
+	position: relative;
+	float: right;
+	font-size: 12px;
+	text-decoration: none;
+	color:#fff;
+	background-color: #22b14c;
+	padding: 10px 20px 10px 20px;
+	margin-top: 90px;
+	border:none;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+}
+
+button.btn-adicionar:hover{
+	background-color: #157832;
+	transition: all 0.3s linear;
+}
+
+@media (min-width:1020px) and (min-device-width:1020px) and (max-width:1280px){
+
+	body{
+		width: 100%;
+		height: auto;
+	    font-family: 'Montserrat', sans-serif;
+	    overflow-x: hidden; 
+	    background-color: #f3f3f3;
+	}
+
+	/* RESPONSIVE */
+	.responsive{
+		position: absolute;
+		left:50%;
+		right:50%;
+	}
+
+	div#cabecalho-area{
+		position: absolute;
+		width: 980px;
+		height: 100px;
+		margin-left:-490px;
+	}
+}
+
+@media (min-width:970px) and (min-device-width:970px) and (max-width:1019px){
+
+	body{
+		width: 100%;
+		height: auto;
+	    font-family: 'Montserrat', sans-serif;
+	    overflow-x: hidden; 
+	    background-color: #f3f3f3;
+	}
+
+	/* RESPONSIVE */
+	.responsive{
+		position: absolute;
+		left:50%;
+		right:50%;
+	}
+
+	div#cabecalho-area{
+		position: absolute;
+		width: 920px;
+		height: 100px;
+		margin-left:-460px;
+	}
+}
+
+@media (min-width:760px) and (min-device-width:760px) and (max-width:969px){
+
+	body{
+		width: 100%;
+		height: auto;
+	    font-family: 'Montserrat', sans-serif;
+	    overflow-x: hidden; 
+	    background-color: #f3f3f3;
+	}
+
+	/* RESPONSIVE */
+	.responsive{
+		position: absolute;
+		left:50%;
+		right:50%;
+	}
+
+	div#cabecalho-area{
+		position: absolute;
+		width: 720px;
+		height: 100px;
+		margin-left:-360px;
+	}
+
+	article#produtos{
+	   position: absolute;
+	   width: 720px;
+	   height: 1000px;
+	   margin-left:-610px;
+	   margin-top: 150px;
+	}
+
+	div#produtos-info-1{
+	 	position: absolute;
+	 	width: 700px;
+	 	height:300px;
+	 	background-color: #fff;
+	 	margin-left:260px;
+	 	border-bottom: 5px solid #c8c8c8;
+	}
+
+	div#produtos-info-2{
+	 	position: absolute;
+	 	width: 700px;
+	 	height:300px;
+	 	background-color: #fff;
+	 	margin-left:260px;
+	 	border-bottom: 5px solid #c8c8c8;
+	 	margin-top:350px;
+	}
+
+	div#produtos-info-3{
+	 	position: absolute;
+	 	width: 700px;
+	 	height:300px;
+	 	background-color: #fff;
+	 	margin-left:260px;
+	 	border-bottom: 5px solid #c8c8c8;
+	 	margin-top:700px;
+	}
+
+	div#produtos-textos{
+		position: relative;
+		float: right;
+		margin-top: 40px;
+		margin-right: 30px;
+		width: 400px;
+	}
+}
+
+@media (min-width:630px) and (min-device-width:630px) and (max-width:759px){
+
+	body{
+		width: 100%;
+		height: auto;
+	    font-family: 'Montserrat', sans-serif;
+	    overflow-x: hidden; 
+	    background-color: #f3f3f3;
+	}
+
+	/* RESPONSIVE */
+	.responsive{
+		position: absolute;
+		left:50%;
+		right:50%;
+	}
+
+	nav#menu-after{
+		position: absolute;
+		width: 100%;
+		height:450px;
+		background-color:#ffcd00;
+		display: none;
+	}
+
+
+	div#cabecalho-area{
+		position: absolute;
+		width: 590px;
+		height: 100px;
+		margin-left:-295px;
+	}
+
+	article#produtos{
+	   position: absolute;
+	   width: 720px;
+	   height: 1000px;
+	   margin-left:-555px;
+	   margin-top: 150px;
+	}
+
+	div#produtos-info-1{
+	 	position: absolute;
+	 	width: 590px;
+	 	height:300px;
+	 	background-color: #fff;
+	 	margin-left:260px;
+	 	border-bottom: 5px solid #c8c8c8;
+	}
+
+	div#produtos-info-2{
+	 	position: absolute;
+	 	width: 590px;
+	 	height:300px;
+	 	background-color: #fff;
+	 	margin-left:260px;
+	 	border-bottom: 5px solid #c8c8c8;
+	 	margin-top:350px;
+	}
+
+	div#produtos-info-3{
+	 	position: absolute;
+	 	width: 590px;
+	 	height:300px;
+	 	background-color: #fff;
+	 	margin-left:260px;
+	 	border-bottom: 5px solid #c8c8c8;
+	 	margin-top:700px;
+	}
+
+	div#produtos-textos{
+		position: relative;
+		float: right;
+		margin-top: 40px;
+		margin-right: 50px;
+		width: 300px;
+	}
+
+	 div#images-mini{
+	 	position: absolute;
+	 	margin-left: 10px;
+	 	margin-top: 35px;
+	 	z-index: 5;
+	 }
+
+	div#images-padrao{
+		position: absolute;
+		margin-left: 40px;
+		margin-top:10px;
+	}
+
+	button.btn-adicionar{
+		position: relative;
+		float: right;
+		font-size: 11px;
+		text-decoration: none;
+		color:#fff;
+		background-color: #22b14c;
+		padding: 10px 20px 10px 20px;
+		margin-top: 90px;
+		margin-right:-40px;
+		border:none;
+		cursor: pointer;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	div#produtos-textos p{
+		font-weight: 300;
+		color: #535353;
+		font-size: 20px;
+	}
+
+	div#produtos-texto-2{
+		position: absolute;
+		margin-top: 80px;
+	}
+
+	div#produtos-texto-2 p{
+		font-size: 24px;
+		color:#22b14c;
+		font-weight: 400;
+	}
+
+	div#produtos-texto-3{
+		position: absolute;
+		margin-top:120px;
+	}
+
+	div#produtos-texto-3 p{
+		font-size: 14px;
+	}
+
+	span.texto-destaque{
+		color:#22b14c;
+	}
+
+	img.images-padrao{
+		width: 180px;
+		margin-left:15px;
+	}
+}
+
+@media (min-width:470px) and (min-device-width:470px) and (max-width:629px){
+
+	body{
+		width: 100%;
+		height: auto;
+	    font-family: 'Montserrat', sans-serif;
+	    overflow-x: hidden; 
+	    background-color: #f3f3f3;
+	}
+
+	/* RESPONSIVE */
+	.responsive{
+		position: absolute;
+		left:50%;
+		right:50%;
+	}
+
+	nav#menu-after{
+		position: absolute;
+		width: 100%;
+		height:450px;
+		background-color:#ffcd00;
+		display: none;
+	}
+
+
+	div#cabecalho-area{
+		position: absolute;
+		width: 420px;
+		height: 100px;
+		margin-left:-210px;
+	}
+
+	article#produtos{
+	   position: absolute;
+	   width: 720px;
+	   height: 1000px;
+	   margin-left:-470px;
+	   margin-top: 150px;
+	}
+
+	div#produtos-info-1{
+	 	position: absolute;
+	 	width: 420px;
+	 	height:300px;
+	 	background-color: #fff;
+	 	margin-left:260px;
+	 	border-bottom: 5px solid #c8c8c8;
+	}
+
+	div#produtos-info-2{
+	 	position: absolute;
+	 	width: 420px;
+	 	height:300px;
+	 	background-color: #fff;
+	 	margin-left:260px;
+	 	border-bottom: 5px solid #c8c8c8;
+	 	margin-top:350px;
+	}
+
+	div#produtos-info-3{
+	 	position: absolute;
+	 	width: 420px;
+	 	height:300px;
+	 	background-color: #fff;
+	 	margin-left:260px;
+	 	border-bottom: 5px solid #c8c8c8;
+	 	margin-top:700px;
+	}
+
+	div#produtos-textos{
+		position: relative;
+		float: right;
+		margin-top: 20px;
+		margin-right: 30px;
+		width: 200px;
+	}
+
+	div#images-mini{
+	 	position: absolute;
+	 	margin-left: 10px;
+	 	margin-top: 35px;
+	 	z-index: 5;
+	}
+
+	div#images-padrao{
+		position: absolute;
+		margin-left: 20px;
+		margin-top:15px;
+	}
+
+	button.btn-adicionar{
+		position: relative;
+		float: right;
+		font-size: 11px;
+		text-decoration: none;
+		color:#fff;
+		background-color: #22b14c;
+		padding: 10px 20px 10px 20px;
+		margin-top: 80px;
+		margin-right:30px;
+		border:none;
+		cursor: pointer;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	div#produtos-textos p{
+		font-weight: 300;
+		color: #535353;
+		font-size: 20px;
+	}
+
+    div#produtos-texto-2{
+		position: absolute;
+		margin-top: 20px;
+	}
+
+	div#produtos-texto-2 p{
+		font-size: 24px;
+		color:#22b14c;
+		font-weight: 400;
+	}
+
+	div#produtos-texto-3{
+		position: absolute;
+		margin-top:50px;
+	}
+
+	div#produtos-texto-3 p{
+		font-size: 14px;
+	}
+
+	span.texto-destaque{
+		color:#22b14c;
+	}
+
+	img.images-padrao{
+		width: 180px;
+		margin-left:0px;
+	}
+}
+
+@media (min-width:360px) and (min-device-width:360px) and (max-width:469px){
+
+	body{
+		width: 100%;
+		height: auto;
+	    font-family: 'Montserrat', sans-serif;
+	    overflow-x: hidden; 
+	    background-color: #f3f3f3;
+	}
+
+	/* RESPONSIVE */
+	.responsive{
+		position: absolute;
+		left:50%;
+		right:50%;
+	}
+
+	nav#menu-after{
+		position: absolute;
+		width: 100%;
+		height:450px;
+		background-color:#ffcd00;
+		display: none;
+	}
+
+
+	div#cabecalho-area{
+		position: absolute;
+		width: 320px;
+		height: 100px;
+		margin-left:-160px;
+	}
+
+	article#produtos{
+	   position: absolute;
+	   width: 320px;
+	   height: 1000px;
+	   margin-left:-420px;
+	   margin-top: 150px;
+	}
+
+	div#produtos-info-1{
+	 	position: absolute;
+	 	width: 320px;
+	 	height:600px;
+	 	background-color: #fff;
+	 	margin-left:260px;
+	 	border-bottom: 5px solid #c8c8c8;
+	}
+
+	div#produtos-info-2{
+	 	position: absolute;
+	 	width: 320px;
+	 	height:600px;
+	 	background-color: #fff;
+	 	margin-left:260px;
+	 	border-bottom: 5px solid #c8c8c8;
+	 	margin-top:650px;
+	}
+
+	div#produtos-info-3{
+	 	position: absolute;
+	 	width: 320px;
+	 	height:600px;
+	 	background-color: #fff;
+	 	margin-left:260px;
+	 	border-bottom: 5px solid #c8c8c8;
+	 	margin-top:1300px;
+	}
+
+	div#produtos-textos{
+		position: relative;
+		float: right;
+		margin-top: 300px;
+		margin-right: 50px;
+		width: 200px;
+	}
+
+	 div#images-mini{
+	 	position: absolute;
+	 	margin-left: 10px;
+	 	margin-top: 35px;
+	 	z-index: 5;
+	 }
+
+	div#images-padrao{
+		position: absolute;
+		margin-left: 80px;
+		margin-top:15px;
+	}
+
+	button.btn-adicionar{
+		position: relative;
+		float: right;
+		font-size: 11px;
+		text-decoration: none;
+		color:#fff;
+		background-color: #22b14c;
+		padding: 10px 20px 10px 20px;
+		margin-top: 80px;
+		margin-right:30px;
+		border:none;
+		cursor: pointer;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	div#produtos-textos p{
+		font-weight: 300;
+		color: #535353;
+		font-size: 20px;
+	}
+
+    div#produtos-texto-2{
+		position: absolute;
+		margin-top: 20px;
+	}
+
+	div#produtos-texto-2 p{
+		font-size: 24px;
+		color:#22b14c;
+		font-weight: 400;
+	}
+
+	div#produtos-texto-3{
+		position: absolute;
+		margin-top:50px;
+	}
+
+	div#produtos-texto-3 p{
+		font-size: 14px;
+	}
+
+	span.texto-destaque{
+		color:#22b14c;
+	}
+
+	img.images-padrao{
+		width: 180px;
+		margin-left:0px;
+	}
+}
+
+@media (min-width:300px) and (min-device-width:320px) and (max-width:359px){
+
+	body{
+		width: 100%;
+		height: auto;
+	    font-family: 'Montserrat', sans-serif;
+	    overflow-x: hidden; 
+	    background-color: #f3f3f3;
+	}
+
+	/* RESPONSIVE */
+	.responsive{
+		position: absolute;
+		left:50%;
+		right:50%;
+	}
+
+	nav#menu-after{
+		position: absolute;
+		width: 100%;
+		height:450px;
+		background-color:#ffcd00;
+		display: none;
+	}
+
+
+	div#cabecalho-area{
+		position: absolute;
+		width: 280px;
+		height: 100px;
+		margin-left:-140px;
+	}
+
+	article#produtos{
+	   position: absolute;
+	   width: 320px;
+	   height: 1000px;
+	   margin-left:-400px;
+	   margin-top: 150px;
+	}
+
+	div#produtos-info-1{
+	 	position: absolute;
+	 	width: 280px;
+	 	height:600px;
+	 	background-color: #fff;
+	 	margin-left:260px;
+	 	border-bottom: 5px solid #c8c8c8;
+	}
+
+	div#produtos-info-2{
+	 	position: absolute;
+	 	width: 280px;
+	 	height:600px;
+	 	background-color: #fff;
+	 	margin-left:260px;
+	 	border-bottom: 5px solid #c8c8c8;
+	 	margin-top:650px;
+	}
+
+	div#produtos-info-3{
+	 	position: absolute;
+	 	width: 280px;
+	 	height:600px;
+	 	background-color: #fff;
+	 	margin-left:260px;
+	 	border-bottom: 5px solid #c8c8c8;
+	 	margin-top:1300px;
+	}
+
+	div#produtos-textos{
+		position: relative;
+		float: right;
+		margin-top: 300px;
+		margin-right: 50px;
+		width: 200px;
+	}
+
+	 div#images-mini{
+	 	position: absolute;
+	 	margin-left: 10px;
+	 	margin-top: 35px;
+	 	z-index: 5;
+	 }
+
+	div#images-padrao{
+		position: absolute;
+		margin-left: 80px;
+		margin-top:15px;
+	}
+
+	button.btn-adicionar{
+		position: relative;
+		float: right;
+		font-size: 11px;
+		text-decoration: none;
+		color:#fff;
+		background-color: #22b14c;
+		padding: 10px 20px 10px 20px;
+		margin-top: 80px;
+		margin-right:30px;
+		border:none;
+		cursor: pointer;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	div#produtos-textos p{
+		font-weight: 300;
+		color: #535353;
+		font-size: 20px;
+	}
+
+    div#produtos-texto-2{
+		position: absolute;
+		margin-top: 20px;
+	}
+
+	div#produtos-texto-2 p{
+		font-size: 24px;
+		color:#22b14c;
+		font-weight: 400;
+	}
+
+	div#produtos-texto-3{
+		position: absolute;
+		margin-top:50px;
+	}
+
+	div#produtos-texto-3 p{
+		font-size: 14px;
+	}
+
+	span.texto-destaque{
+		color:#22b14c;
+	}
+
+	img.images-padrao{
+		width: 180px;
+		margin-left:0px;
+	}
+}

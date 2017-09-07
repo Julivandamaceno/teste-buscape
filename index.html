@@ -1,0 +1,285 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Buscapé</title>
+		<meta name="Description" content="Busca pé E-commerce! Todos os produtos ao seu alcane!">
+        <meta name="keywords" content="Buscapé, Eletroeletrônicos, Eltrodoméstico, Smartphones, Notebooks, TVs"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" type"text/css" href="css/style.css">
+	</head>
+
+    <!-- Aqui começa o conteúdo do site -->
+	<body onload="zeroNumber();">
+
+        <!-- Aqui começa o cabecalho -->
+		<header id="cabecalho">
+
+			<!-- Menu Depois de Aberto-->
+           <nav id="menu-after">
+           	 <div id="menu-after-conteudo" class="responsive">
+
+           	 	<div id="listar-produtos">
+           	 	</div>
+
+           	 	<a href="#" class="btn-fechar">Fechar</a>
+           	 </div>
+           </nav>
+
+           <div id="cabecalho-area" class="responsive">
+
+             <h1>
+             	<figure id="logo">
+             		<img src="img/logo.png" class="logo">
+             	</figure>
+             </h1>
+
+             <div id="menu-hamburger">
+             	<div id="trace">
+             	<br>
+             	<div id="trace">
+             	<br>
+             	<div id="trace">
+
+                <p id="cont" data-value="0">0</p>
+             </div>
+
+           </div>
+		</header>
+		<!-- Aqui termina o cabecalho -->
+
+        <!-- Aqui começa a sessão de produtos -->
+		<section id="produtos">
+			<article id="produtos" class="responsive">
+
+               <!-- Produtos Info 1 -->
+               <div id="produtos-info-1">
+
+               	   <div id="images-mini">
+
+	               	  <h1>
+		             	<figure id="images-mini">
+		             		<img src="img/brastemp_2.png" class="images-mini">
+		             	</figure>
+		              </h1><br>
+
+		              <h1>
+		             	<figure id="images-mini">
+		             		<img src="img/brastemp_3.png" class="images-mini">
+		             	</figure>
+		              </h1><br>
+
+		              <h1>
+		             	<figure id="images-mini">
+		             		<img src="img/brastemp_4.png" class="images-mini">
+		             	</figure>
+		              </h1><br>
+
+		              <h1>
+		             	<figure id="images-mini">
+		             		<img src="img/brastemp_5.png" class="images-mini">
+		             	</figure>
+		              </h1>
+
+		           </div>
+
+		           <div id="images-padrao">
+
+		           	  <h1>
+		             	<figure id="images-padrao">
+		             		<img src="img/brastemp_1.png" class="images-padrao">
+		             	</figure>
+		              </h1>
+
+		           </div>
+
+		           <div id="produtos-textos">
+
+                      <div id="produtos-texto-1">
+                      	<p>Refrigerador Brastemp Inverse<p>BRE50NK 422 Litros Inox</p>
+                      	<img src="img/heart.png" class="heart">
+                      </div>
+
+                      <div id="produtos-texto-2">
+                      	<p>6x R$ 499,83</p>
+                      </div>
+
+                      <div id="produtos-texto-3">
+                      	<p>Ou <span class="texto-destaque">R$ 2.669,30</span> à vista</p>
+                      </div>
+
+                      <button class="btn-adicionar" onclick="increaseNumber();">Adicionar Ao Carrinho</button>
+
+		           </div>
+
+               </div>
+               <!-- Fim Produtos Info 1 -->
+
+               <!-- Produtos Info 2 -->
+               <div id="produtos-info-2">
+
+               	   <div id="images-mini">
+
+	               	  <h1>
+		             	<figure id="images-mini">
+		             		<img src="img/iphone_2.png" class="images-mini">
+		             	</figure>
+		              </h1><br>
+
+		              <h1>
+		             	<figure id="images-mini">
+		             		<img src="img/iphone_3.png" class="images-mini">
+		             	</figure>
+		              </h1><br>
+
+		              <h1>
+		             	<figure id="images-mini">
+		             		<img src="img/iphone_4.png" class="images-mini">
+		             	</figure>
+		              </h1><br>
+
+		              <h1>
+		             	<figure id="images-mini">
+		             		<img src="img/iphone_5.png" class="images-mini">
+		             	</figure>
+		              </h1>
+
+		           </div>
+
+		           <div id="images-padrao">
+
+		           	  <h1>
+		             	<figure id="images-padrao">
+		             		<img src="img/iphone_1.png" class="images-padrao">
+		             	</figure>
+		              </h1>
+
+		           </div>
+
+		           <div id="produtos-textos">
+
+                      <div id="produtos-texto-1">
+                      	<p>Smartphone Apple iPhone 7<p>128GB</p>
+                      	<img src="img/heart.png" class="heart">
+                      </div>
+
+                        
+                      <div id="produtos-texto-2">
+                      	<p>10x R$ 366,56</p>
+                      </div>
+
+                      <div id="produtos-texto-3">
+                      	<p>Ou <span class="texto-destaque">R$ 3.999,10</span> à vista</p>
+                      </div>
+
+                      <button class="btn-adicionar" onclick="increaseNumber();">Adicionar Ao Carrinho</button>
+
+		           </div>
+
+               </div>
+               <!-- Fim Produtos Info 2 -->
+
+               <!-- Produtos Info 3 -->
+               <div id="produtos-info-3">
+
+               	   <div id="images-mini">
+
+	               	  <h1>
+		             	<figure id="images-mini">
+		             		<img src="img/samsung_2.png" class="images-mini">
+		             	</figure>
+		              </h1><br>
+
+		              <h1>
+		             	<figure id="images-mini">
+		             		<img src="img/samsung_3.png" class="images-mini">
+		             	</figure>
+		              </h1><br>
+
+		              <h1>
+		             	<figure id="images-mini">
+		             		<img src="img/samsung_1.png" class="images-mini">
+		             	</figure>
+		              </h1><br>
+
+		              <h1>
+		             	<figure id="images-mini">
+		             		<img src="img/samsung_5.png" class="images-mini">
+		             	</figure>
+		              </h1>
+
+		           </div>
+
+		           <div id="images-padrao">
+
+		           	  <h1>
+		             	<figure id="images-padrao">
+		             		<img src="img/samsung_6.png" class="images-padrao">
+		             	</figure>
+		              </h1>
+
+		           </div>
+
+		           <div id="produtos-textos">
+
+                      <div id="produtos-texto-1">
+                      	<p>Smart TV Samsung Série 4<p>UN32J4300Ag 32 Polegadas<p>LED Plana</p>
+                      	<img src="img/heart.png" class="heart">
+                      </div>
+
+                        
+                      <div id="produtos-texto-2">
+                      	<p>10x R$ 134,11</p>
+                      </div>
+
+                      <div id="produtos-texto-3">
+                      	<p>Ou <span class="texto-destaque">R$ 1.399,90</span> à vista</p>
+                      </div>
+
+                      <button class="btn-adicionar" onclick="increaseNumber();">Adicionar Ao Carrinho</button>
+
+		           </div>
+
+               </div>
+               <!-- Fim Produtos Info 3 -->
+
+
+			</article>
+		</section>
+		<!-- Aqui termina a sessão de produtos -->
+
+		<!-- Scripts -->
+		<script type="text/javascript">
+            
+            var n = 0;
+            
+			function increaseNumber(){
+		    	n = n + 1;
+		    	document.getElementById("cont").innerHTML = n;
+		    	zeroNumber();
+
+		            var content = document.getElementById("listar-produtos");
+			    	content.innerHTML("produtos-texto-1").value;
+	                
+                
+            }
+
+		    function zeroNumber(){
+		    	if(document.getElementById('cont').innerHTML == 0){
+		    		document.getElementById('cont').style.display = "none";
+		    	}
+		    	else{
+		    		document.getElementById('cont').style.display = "block";
+		    	}
+		    }
+
+		   
+		</script>
+
+		<script type="text/javascript" src="js/menu.js"></script>
+
+	</body>
+	<!-- Aqui termina o conteúdo do site -->
+</html>
