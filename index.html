@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+        
         <link rel="stylesheet" type"text/css" href="css/style.css">
 	</head>
 
@@ -55,7 +55,7 @@
 			<article id="produtos" class="responsive">
 
                <!-- Produtos Info 1 -->
-               <div id="produtos-info-1">
+               <div id="produtos-info-1" class="produtos-info">
 
                	   <div id="images-mini">
 
@@ -110,7 +110,7 @@
                       	<p>Ou <span class="texto-destaque">R$ 2.669,30</span> à vista</p>
                       </div>
 
-                      <button class="btn-adicionar" onclick="increaseNumber();">Adicionar Ao Carrinho</button>
+                      <button class="btn-adicionar" onclick="addItems();">Adicionar Ao Carrinho</button>
 
 		           </div>
 
@@ -118,7 +118,7 @@
                <!-- Fim Produtos Info 1 -->
 
                <!-- Produtos Info 2 -->
-               <div id="produtos-info-2">
+               <div id="produtos-info-2" class="produtos-info">
 
                	   <div id="images-mini">
 
@@ -174,7 +174,7 @@
                       	<p>Ou <span class="texto-destaque">R$ 3.999,10</span> à vista</p>
                       </div>
 
-                      <button class="btn-adicionar" onclick="increaseNumber();">Adicionar Ao Carrinho</button>
+                      <button class="btn-adicionar" onclick="addItems();">Adicionar Ao Carrinho</button>
 
 		           </div>
 
@@ -182,7 +182,7 @@
                <!-- Fim Produtos Info 2 -->
 
                <!-- Produtos Info 3 -->
-               <div id="produtos-info-3">
+               <div id="produtos-info-3" class="produtos-info">
 
                	   <div id="images-mini">
 
@@ -238,7 +238,7 @@
                       	<p>Ou <span class="texto-destaque">R$ 1.399,90</span> à vista</p>
                       </div>
 
-                      <button class="btn-adicionar" onclick="increaseNumber();">Adicionar Ao Carrinho</button>
+                      <button class="btn-adicionar" onclick="addItems();">Adicionar Ao Carrinho</button>
 
 		           </div>
 
@@ -251,35 +251,9 @@
 		<!-- Aqui termina a sessão de produtos -->
 
 		<!-- Scripts -->
-		<script type="text/javascript">
-            
-            var n = 0;
-            
-			function increaseNumber(){
-		    	n = n + 1;
-		    	document.getElementById("cont").innerHTML = n;
-		    	zeroNumber();
-
-		            var content = document.getElementById("listar-produtos");
-			    	content.innerHTML("produtos-texto-1").value;
-	                
-                
-            }
-
-		    function zeroNumber(){
-		    	if(document.getElementById('cont').innerHTML == 0){
-		    		document.getElementById('cont').style.display = "none";
-		    	}
-		    	else{
-		    		document.getElementById('cont').style.display = "block";
-		    	}
-		    }
-
-		   
-		</script>
-
+		<script type="text/javascript" src="js/contnumber.js"></script>
 		<script type="text/javascript" src="js/menu.js"></script>
-
-	</body>
+		
+    </body>
 	<!-- Aqui termina o conteúdo do site -->
 </html>
